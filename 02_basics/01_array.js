@@ -19,6 +19,8 @@ const newArr = myArr.join() // It binds and convert array to string
 
 // slice, splice
 
+// const myArr = [1,2,3,4,5,6]
+
 console.log("A ", myArr);
 
 const myn1 = myArr.slice(1, 3)
@@ -27,7 +29,7 @@ console.log(myn1);
 console.log("B ", myArr);
 
 
-const myn2 = myArr.splice(1, 3)
+const myn2 = myArr.splice(1, 3) // 1 is starting index and 3 is no of continous values to be removed from original array and stored in new array
 console.log("C ", myArr);
 console.log(myn2);
 
