@@ -33,3 +33,26 @@ const myFunction = function(){
 }
  
 console.log(typeof bigNumber);
+
+//********************************************************** 
+
+// Stack (Primitive)(Pass by value), Heap (Non-Primitive)(Pass by reference)
+
+let myYoutubeName = "C0ld"
+let anotherName = myYoutubeName
+
+anotherName = "chaiaurcode"
+
+console.log(anotherName);
+console.log(myYoutubeName)
+
+let obj = {
+    email: "user@mail.com",
+    upi: "user@ybl"
+}
+
+let obj2 = obj
+obj2.email = "ekas@gmail.com"
+
+console.log(obj.email);
+console.log(obj2.email);
